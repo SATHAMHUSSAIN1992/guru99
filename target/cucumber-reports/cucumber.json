@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12348004534,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is in home page, click Add to customer",
+            "match": {
+              "location": "OneDMap.user_is_in_home_page_click_Add_to_customer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12034173397,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enters details in add customer field",
+            "match": {
+              "location": "OneDMap.user_should_enters_details_in_add_customer_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Firstname",
+                  "satham"
+                ]
+              },
+              {
+                "cells": [
+                  "Lastname",
+                  "hussain"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "satham4all@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Address",
+                  "Nagercoil"
+                ]
+              },
+              {
+                "cells": [
+                  "Mobilenumber",
+                  "9791734485"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 687218497,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Navigates to customer id page",
+            "match": {
+              "location": "OneDMap.navigates_to_customer_id_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/OneDMap.feature",
+    "tags": []
+  }
+]

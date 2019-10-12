@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="25.072459">
+<testcase classname="Title of your feature" name="Title of your scenario" time="25.072459">
+<system-out><![CDATA[Given User is in home page, click Add to customer...........................passed
+When User should enters details in add customer field.......................passed
+Then Navigates to customer id page..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
